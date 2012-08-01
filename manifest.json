@@ -1,0 +1,23 @@
+{
+"name": "LightImage",
+"version": "1.2",
+"description": "アイコンや写真を目立たなくします",
+"homepage_url": "https://plus.google.com/b/112102646198561777507/",
+"icons": {
+    "128": "icon128.png",
+    "48": "icon48.png"
+},
+"content_scripts": [
+    {
+        "js": [
+            "LightImage.js"
+        ],
+        "matches": [
+            "https://plus.google.com/*",
+            "https://*.googleusercontent.com/*"
+        ],
+        "all_frames": true
+    }
+],
+    "manifest_version": 2
+}
