@@ -1,12 +1,22 @@
 {
 "name": "LightImage",
-"version": "1.2",
+"version": "2.0",
 "description": "アイコンや写真を目立たなくします",
 "homepage_url": "https://plus.google.com/b/112102646198561777507/",
 "icons": {
     "128": "icon128.png",
     "48": "icon48.png"
 },
+"page_action": {
+    "default_icon": "icon19.png",
+    "default_title": "LightImage"
+},
+"background": {
+    "page": "background.html"
+},
+"permissions": [
+    "tabs"
+],
 "content_scripts": [
     {
         "js": [
