@@ -17,7 +17,7 @@ function setStyleSheet() {
     style.innerHTML += ".myImg { opacity: 0.6 } ";
     style.innerHTML += ".myImg:hover { opacity: 1 } ";
     // 右側のサイドバー
-    style.innerHTML += "div[componentid] { opacity: 0.8 }";
+    style.innerHTML += "div[componentid] { opacity: 0.7 }";
     style.innerHTML += "div[componentid]:hover { opacity: 1 }";
 }
 
