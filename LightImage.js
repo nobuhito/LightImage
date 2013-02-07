@@ -16,10 +16,11 @@ function setStyleSheet() {
     style.innerHTML += "img:hover { opacity: 1 } ";
     style.innerHTML += ".myImg { opacity: 0.6 } ";
     style.innerHTML += ".myImg:hover { opacity: 1 } ";
-    style.innerHTML += ".r1a { opacity: 0.3 }";
-    style.innerHTML += ".r1a:hover { opacity: 1 }"; // 新規イベントの連絡
+    // 右側のサイドバー
+    style.innerHTML += "div[componentid] { opacity: 0.3 }";
+    style.innerHTML += "div[componentid]:hover { opacity: 1 }";
 }
-u
+
 function resetStyleSheet() {
     var style = document.getElementById('myImgStyle');
     style.innerHTML = '';
