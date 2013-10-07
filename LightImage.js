@@ -62,7 +62,8 @@ function show() {
 
 // 画像関係を目立たなく
 function myImage() {
-    var img = document.querySelectorAll('.dv:not(.myImg)');
+    // img/../../../
+    var img = document.querySelectorAll('.A7:not(.myImg)');
     for (i=0; i<img.length; i++) {
         var h = img[i].style.height;
         img[i].onmouseover = function() {

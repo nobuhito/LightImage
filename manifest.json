@@ -1,8 +1,8 @@
 {
 "name": "LightImage",
-"version": "3.1",
-"description": "アイコンや写真を目立たなくします",
-"homepage_url": "https://plus.google.com/b/112102646198561777507/",
+"version": "3.2",
+"description": "G+のアイコンや写真を目立たなくします",
+"homepage_url": "https://chrome.google.com/webstore/detail/lightimage/kcokddkpkpcdppfmdihagmapniakgdgj",
 "icons": {
     "128": "icon128.png",
     "48": "icon48.png"
